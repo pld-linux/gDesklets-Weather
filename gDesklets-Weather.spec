@@ -59,6 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 %{_sensorsdir}/%{pname}/icons
 %{_sensorsdir}/%{pname}/*.py[co]
 %{_sensorsdir}/%{pname}/ChangeLog
-%lang(de) %{_sensorsdir}/%{pname}/locale/de
-%lang(nl) %{_sensorsdir}/%{pname}/locale/nl
 %{_displaysdir}/*
