@@ -9,8 +9,8 @@ Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/weather-desklet-%{version}.tar.bz2
 # Source0-md5:	78d6b9a041581a92979f16fe31b5f039
 URL:		http://gdesklets.gnomedesktop.org/
-Buildrequires:	python >= 2.3
-Buildrequires:	python-pygtk >= 1.99.14
+BuildRequires:	python >= 2.3
+BuildRequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets
 Provides:	gDesklets-display
 Provides:	gDesklets-sensor
