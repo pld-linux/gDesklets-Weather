@@ -3,7 +3,7 @@ Summary:	A sensor and display for displaying the current weather information
 Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej
 Name:		gDesklets-%{pname}
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.pycage.de/download/gdesklets/weather-desklet-%{version}.tar.bz2
@@ -12,6 +12,8 @@ URL:		http://www.pycage.de/software_gdesklets.html
 Buildrequires:	python >= 2.3
 Buildrequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets
+Provides:	gDesklets-display
+Provides:	gDesklets-sensor
 Conflicts:	gDesklets-StarterKit
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -52,5 +54,10 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{_sensorsdir}/*
+%dir %{_sensorsdir}/%{pname}
+%dir %{_sensorsdir}/%{pname}/locale
+%{_sensorsdir}/%{pname}/icons
+%{_sensorsdir}/%{pname}/.info
+%{_sensorsdir}/%{pname}/*.py[co]
+%lang(de) %{_sensorsdir}/%{pname}/locale/de
 %{_displaysdir}/*
