@@ -1,6 +1,6 @@
 %define	pname	Weather
 Summary:	A sensor and display for displaying the current weather information
-Summary(pl):	Czujnik i wy¶wietlacz do wy¶wietlania aktualnej informacji pogodowej
+Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej
 Name:		gDesklets-%{pname}
 Version:	0.2
 Release:	1
@@ -23,7 +23,7 @@ A sensor and display for displaying the current weather information.
 It can retrieve information for many countries of the world.
 
 %description -l pl
-Czujnik i wy¶wietlacz do wy¶wietlania aktualnej informacji pogodowej.
+Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej.
 Mo¿e zbieraæ informacje dla wielu krajów ¶wiata.
 
 %prep
