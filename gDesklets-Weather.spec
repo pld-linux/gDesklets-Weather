@@ -2,13 +2,13 @@
 Summary:	A sensor and display for displaying the current weather information
 Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej
 Name:		gDesklets-%{pname}
-Version:	0.21
+Version:	0.22
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://www.pycage.de/download/gdesklets/weather-desklet-%{version}.tar.bz2
-# Source0-md5:	e5e4c20362ac7f776ff1b962d3e6df56
-URL:		http://www.pycage.de/software_gdesklets.html
+Source0:	http://gdesklets.gnomedesktop.org/files/weather-desklet-%{version}.tar.bz2
+# Source0-md5:	78d6b9a041581a92979f16fe31b5f039
+URL:		http://gdesklets.gnomedesktop.org/
 Buildrequires:	python >= 2.3
 Buildrequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets
