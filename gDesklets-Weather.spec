@@ -10,7 +10,7 @@ Source0:	http://www.pycage.de/download/gdesklets/weather-desklet-%{version}.tar.
 # Source0-md5:	44ab42e910ef0c06c2bf1215b4e077a3
 URL:		http://www.pycage.de/software_gdesklets.html
 Buildrequires:	python >= 2.3
-Buildrequires:	python-pygtk-devel >= 1.99.14
+Buildrequires:	python-pygtk >= 1.99.14
 Requires:	gDesklets
 Conflicts:	gDesklets-StarterKit
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
