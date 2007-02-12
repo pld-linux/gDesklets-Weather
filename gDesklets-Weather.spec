@@ -1,6 +1,6 @@
 %define		pname	Weather
 Summary:	A sensor and display for displaying the current weather information
-Summary(pl):	Czujnik i wy∂wietlacz do pokazywania aktualnej informacji pogodowej
+Summary(pl.UTF-8):   Czujnik i wy≈õwietlacz do pokazywania aktualnej informacji pogodowej
 Name:		gDesklets-%{pname}
 Version:	0.24
 Release:	3
@@ -25,9 +25,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 A sensor and display for displaying the current weather information.
 It can retrieve information for many countries of the world.
 
-%description -l pl
-Czujnik i wy∂wietlacz do pokazywania aktualnej informacji pogodowej.
-Moøe zbieraÊ informacje dla wielu krajÛw ∂wiata.
+%description -l pl.UTF-8
+Czujnik i wy≈õwietlacz do pokazywania aktualnej informacji pogodowej.
+Mo≈ºe zbieraƒá informacje dla wielu kraj√≥w ≈õwiata.
 
 %prep
 %setup -q -n weather-desklet-%{version}
